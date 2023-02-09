@@ -7,26 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC05917C298F87A20078E8DB /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC05917B298F87A20078E8DB /* Level-2.sks */; };
 		BC0F2CC5298B3AAC00031810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F2CC4298B3AAC00031810 /* AppDelegate.swift */; };
-		BC0F2CC7298B3AAD00031810 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CC6298B3AAD00031810 /* GameScene.sks */; };
-		BC0F2CC9298B3AAD00031810 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CC8298B3AAD00031810 /* Actions.sks */; };
+		BC0F2CC7298B3AAD00031810 /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CC6298B3AAD00031810 /* Level-1.sks */; };
 		BC0F2CCB298B3AAD00031810 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F2CCA298B3AAD00031810 /* GameScene.swift */; };
 		BC0F2CCD298B3AAD00031810 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F2CCC298B3AAD00031810 /* GameViewController.swift */; };
 		BC0F2CD0298B3AAD00031810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CCE298B3AAD00031810 /* Main.storyboard */; };
 		BC0F2CD2298B3AB000031810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CD1298B3AB000031810 /* Assets.xcassets */; };
 		BC0F2CD5298B3AB000031810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CD3298B3AB000031810 /* LaunchScreen.storyboard */; };
+		BC0F2CDC298B3AFF00031810 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CDB298B3AFE00031810 /* Smashing-Things.atlas */; };
+		BC0F2CDE298B40B000031810 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F2CDD298B40B000031810 /* Orange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC05917B298F87A20078E8DB /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
+		BC05917F298F8C690078E8DB /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		BC0F2CC1298B3AAC00031810 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC0F2CC4298B3AAC00031810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC0F2CC6298B3AAD00031810 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BC0F2CC8298B3AAD00031810 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BC0F2CC6298B3AAD00031810 /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
 		BC0F2CCA298B3AAD00031810 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		BC0F2CCC298B3AAD00031810 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BC0F2CCF298B3AAD00031810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC0F2CD1298B3AB000031810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC0F2CD4298B3AB000031810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC0F2CDB298B3AFE00031810 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
+		BC0F2CDD298B40B000031810 /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				BC0F2CC4298B3AAC00031810 /* AppDelegate.swift */,
-				BC0F2CC6298B3AAD00031810 /* GameScene.sks */,
-				BC0F2CC8298B3AAD00031810 /* Actions.sks */,
+				BC0F2CC6298B3AAD00031810 /* Level-1.sks */,
+				BC05917B298F87A20078E8DB /* Level-2.sks */,
 				BC0F2CCA298B3AAD00031810 /* GameScene.swift */,
+				BC05917F298F8C690078E8DB /* Explosion.sks */,
 				BC0F2CCC298B3AAD00031810 /* GameViewController.swift */,
+				BC0F2CDD298B40B000031810 /* Orange.swift */,
 				BC0F2CCE298B3AAD00031810 /* Main.storyboard */,
 				BC0F2CD1298B3AB000031810 /* Assets.xcassets */,
 				BC0F2CD3298B3AB000031810 /* LaunchScreen.storyboard */,
+				BC0F2CDB298B3AFE00031810 /* Smashing-Things.atlas */,
 			);
 			path = OrangeTree;
 			sourceTree = "<group>";
@@ -129,11 +137,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0F2CDC298B3AFF00031810 /* Smashing-Things.atlas in Resources */,
 				BC0F2CD0298B3AAD00031810 /* Main.storyboard in Resources */,
-				BC0F2CC7298B3AAD00031810 /* GameScene.sks in Resources */,
+				BC0F2CC7298B3AAD00031810 /* Level-1.sks in Resources */,
+				BC05917C298F87A20078E8DB /* Level-2.sks in Resources */,
 				BC0F2CD2298B3AB000031810 /* Assets.xcassets in Resources */,
 				BC0F2CD5298B3AB000031810 /* LaunchScreen.storyboard in Resources */,
-				BC0F2CC9298B3AAD00031810 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +156,7 @@
 				BC0F2CCB298B3AAD00031810 /* GameScene.swift in Sources */,
 				BC0F2CCD298B3AAD00031810 /* GameViewController.swift in Sources */,
 				BC0F2CC5298B3AAC00031810 /* AppDelegate.swift in Sources */,
+				BC0F2CDE298B40B000031810 /* Orange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +308,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +334,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
