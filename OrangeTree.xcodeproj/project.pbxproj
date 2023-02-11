@@ -17,6 +17,7 @@
 		BC0F2CD5298B3AB000031810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CD3298B3AB000031810 /* LaunchScreen.storyboard */; };
 		BC0F2CDC298B3AFF00031810 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CDB298B3AFE00031810 /* Smashing-Things.atlas */; };
 		BC0F2CDE298B40B000031810 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F2CDD298B40B000031810 /* Orange.swift */; };
+		BC91AE8F29981AF90003BE02 /* Level-3.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC91AE8E29981AF90003BE02 /* Level-3.sks */; };
 		BCE60BFB29948BC5003E3D2F /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC05917F298F8C690078E8DB /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		BC0F2CD4298B3AB000031810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC0F2CDB298B3AFE00031810 /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
 		BC0F2CDD298B40B000031810 /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		BC91AE8E29981AF90003BE02 /* Level-3.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-3.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				BC0F2CC4298B3AAC00031810 /* AppDelegate.swift */,
 				BC0F2CC6298B3AAD00031810 /* Level-1.sks */,
 				BC05917B298F87A20078E8DB /* Level-2.sks */,
+				BC91AE8E29981AF90003BE02 /* Level-3.sks */,
 				BC0F2CCA298B3AAD00031810 /* GameScene.swift */,
 				BC05917F298F8C690078E8DB /* Explosion.sks */,
 				BC0F2CCC298B3AAD00031810 /* GameViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				BC0F2CDC298B3AFF00031810 /* Smashing-Things.atlas in Resources */,
 				BC0F2CD0298B3AAD00031810 /* Main.storyboard in Resources */,
+				BC91AE8F29981AF90003BE02 /* Level-3.sks in Resources */,
 				BC0F2CC7298B3AAD00031810 /* Level-1.sks in Resources */,
 				BC05917C298F87A20078E8DB /* Level-2.sks in Resources */,
 				BC0F2CD2298B3AB000031810 /* Assets.xcassets in Resources */,

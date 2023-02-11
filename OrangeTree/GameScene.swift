@@ -8,7 +8,7 @@ class GameScene: SKScene {
     var touchStart: CGPoint = .zero
     var shapeNode = SKShapeNode()
     var boundary = SKNode()
-    var numOfLevels: UInt32 = 2
+    var numOfLevels: UInt32 = 3
     
     // Class method to load .sks files
     static func Load(level: Int) -> GameScene? {
