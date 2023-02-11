@@ -17,6 +17,7 @@
 		BC0F2CD5298B3AB000031810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CD3298B3AB000031810 /* LaunchScreen.storyboard */; };
 		BC0F2CDC298B3AFF00031810 /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BC0F2CDB298B3AFE00031810 /* Smashing-Things.atlas */; };
 		BC0F2CDE298B40B000031810 /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0F2CDD298B40B000031810 /* Orange.swift */; };
+		BCE60BFB29948BC5003E3D2F /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BC05917F298F8C690078E8DB /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +143,7 @@
 				BC0F2CC7298B3AAD00031810 /* Level-1.sks in Resources */,
 				BC05917C298F87A20078E8DB /* Level-2.sks in Resources */,
 				BC0F2CD2298B3AB000031810 /* Assets.xcassets in Resources */,
+				BCE60BFB29948BC5003E3D2F /* Explosion.sks in Resources */,
 				BC0F2CD5298B3AB000031810 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
